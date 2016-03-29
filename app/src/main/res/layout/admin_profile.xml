@@ -1,0 +1,76 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:background="@drawable/background"
+    android:layout_height="match_parent">
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textAppearance="?android:attr/textAppearanceLarge"
+        android:text="Welcome To MyNet!!!"
+        android:id="@+id/textViewAdminProfile"
+        android:layout_marginTop="30dp"
+        android:layout_marginLeft="50dp" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textAppearance="?android:attr/textAppearanceLarge"
+        android:text="Username"
+        android:id="@+id/admin_profile_username"
+        android:layout_marginTop="80dp"
+        android:layout_marginLeft="50dp"/>
+
+    <Button
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Broadcast New Message"
+        android:background="#3245AC"
+        android:id="@+id/broadcast"
+        android:layout_marginTop="150dp"
+        android:layout_marginLeft="50dp"
+        android:layout_alignEnd="@+id/showNewMessage" />
+
+    <Button
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Join Request"
+        android:background="#3245AC"
+        android:id="@+id/joinRequestMsgButton"
+        android:layout_marginTop="80dp"
+        android:layout_marginLeft="120dp"
+        android:layout_alignEnd="@+id/showNewMessage" />
+
+    <Button
+        style="?android:attr/buttonStyleSmall"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Logout"
+        android:id="@+id/admin_logout_button"
+        android:background="#3245AC"
+        android:layout_marginTop="80dp"
+        android:layout_marginLeft="270dp"
+        />
+
+    <Button
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Show All Messages"
+        android:id="@+id/showPrevMessageButton"
+        android:background="#3245AC"
+        android:layout_marginTop="250dp"
+        android:layout_marginLeft="50dp"
+        />
+
+    <Button
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Show Followers"
+        android:id="@+id/showFollowers"
+        android:background="#3245AC"
+        android:layout_marginTop="350dp"
+        android:layout_marginLeft="50dp" />
+
+
+</RelativeLayout>

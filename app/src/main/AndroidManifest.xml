@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="com.example.ramanpandey.mynetdemo" >
+
+    <application
+        android:allowBackup="true"
+        android:icon="@mipmap/ic_launcher"
+        android:label="@string/app_name"
+        android:theme="@style/AppTheme" >
+        <activity
+            android:name=".MainActivity"
+            android:label="@string/app_name" >
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+            <intent-filter>
+                <action android:name="broadcast_message" />
+
+            </intent-filter>
+        </activity>
+        <activity android:name=".LoginTest" android:noHistory="true"></activity>
+        <activity android:name=".AdminProfileActivity"></activity>
+        <activity android:name=".RegisterUser"></activity>
+        <activity android:name=".BroadcastMessage"></activity>
+        <activity android:name=".WebResults"></activity>
+        <activity android:name=".ShowPrevMessagesActivity"></activity>
+        <activity android:name=".ShowAllUsers"></activity>
+        <activity android:name=".ShowNewMessageActivity"></activity>
+        <activity android:name=".FullMessageActivity"></activity>
+        <activity android:name=".OpenNewMessage"></activity>
+        <activity android:name=".UserProfileActivity"></activity>
+        <activity android:name=".ChkAdminPrivlage" android:noHistory="true"></activity>
+        <activity android:name=".ShowFollowersActivity"></activity>
+        <activity android:name=".ShowAdminsActivity"></activity>
+        <activity android:name=".OpenAdminProfile"></activity>
+        <activity android:name=".FriendRequests"></activity>
+        <activity android:name=".OpenUserProfile"></activity>
+        <activity android:name=".ShowFollowingAdmins"></activity>
+    </application>
+
+    <uses-permission android:name="android.permission.CHANGE_NETWORK_STATE" />
+    <uses-permission android:name="android.permission.INTERNET" />
+</manifest>
